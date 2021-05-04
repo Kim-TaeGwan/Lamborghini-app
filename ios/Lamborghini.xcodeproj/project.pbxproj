@@ -14,6 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81846CAC2520A50248FE1FEC /* libPods-Lamborghini-LamborghiniTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEADDF349E6D10F94D55E621 /* libPods-Lamborghini-LamborghiniTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FB5285732641C68400275AEE /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = FB52856F2641BDBB00275AEE /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BEADDF349E6D10F94D55E621 /* libPods-Lamborghini-LamborghiniTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lamborghini-LamborghiniTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74DF9630EBA71E09B709794 /* Pods-Lamborghini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lamborghini.release.xcconfig"; path = "Target Support Files/Pods-Lamborghini/Pods-Lamborghini.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB52856F2641BDBB00275AEE /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FB52856F2641BDBB00275AEE /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Lamborghini */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LamborghiniTests */,
@@ -145,7 +148,6 @@
 				9EB72CC14B03A4D186CF59AF /* Pods-Lamborghini-LamborghiniTests.debug.xcconfig */,
 				ACD5570422E9BCE7A15C47DF /* Pods-Lamborghini-LamborghiniTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -199,6 +201,9 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"Fonts provided by application",
+				);
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -241,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5285732641C68400275AEE /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

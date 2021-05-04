@@ -1,15 +1,15 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {StatusBar} from 'react-native';
 import {theme} from './theme';
 import {ThemeProvider} from '@emotion/react';
-import Loading from './screens/Loading';
+import Navigation from './navigation';
+import styled from '@emotion/native';
 
 const App = () => {
-  // const [isLoading, setIsLoading] = useState(false);
   return (
     <ThemeProvider theme={theme}>
       <StatusBar barStyle="light-content" />
-      <Loading />
+      <Navigation />
     </ThemeProvider>
   );
 };
