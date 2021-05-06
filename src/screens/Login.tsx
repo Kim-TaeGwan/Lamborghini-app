@@ -19,16 +19,13 @@ const LogoImage = styled.Image`
 const Title = styled.Text`
   text-align: center;
   margin-bottom: 10px;
+  font: normal normal bold 35px/47px Open Sans;
   color: #bfbfbf;
-  font-size: 35px;
-  font-weight: bold;
-  font-family: OpenSans-Bold;
 `;
 const Comment = styled.Text`
-  color: #686868;
-  font-size: 13px;
+  font: normal normal normal 13px/18px Open Sans;
   text-align: center;
-  font-family: OpenSans-Regular;
+  color: #686868;
 `;
 const styles = StyleSheet.create({
   linearGradient: {
