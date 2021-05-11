@@ -3,6 +3,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import styled from '@emotion/native';
 import {StyleSheet, View} from 'react-native';
 import Logo from '../assets/images/logo.png';
+import Input from '../components/Input';
 
 const Container = styled.View`
   flex: 1;
@@ -46,6 +47,7 @@ const Login = () => {
           <Title>Welcome</Title>
           <Comment>Sign in or create a free account to continue...</Comment>
         </View>
+        <Input />
       </Container>
     </LinearGradient>
   );
