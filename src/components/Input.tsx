@@ -1,10 +1,20 @@
 import React from 'react';
-import {View} from 'react-native';
 import styled from '@emotion/native';
+import Email from '../assets/icons/LoginEmail';
 
-const Contaienr = styled.View`
+const Container = styled.View`
   flex-direction: column;
   width: 100%;
+`;
+
+const InputContainer = styled.View`
+  background-color: #bfbfbf;
+  border-radius: 5px;
+`;
+
+const InputImage = styled.View`
+  width: 20px;
+  height: 20px;
 `;
 
 const Input = styled.TextInput`
@@ -15,9 +25,14 @@ const Input = styled.TextInput`
 
 const TextInput = () => {
   return (
-    <Contaienr>
-      <Input />
-    </Contaienr>
+    <Container>
+      <InputContainer>
+        <InputImage>
+          <Email />
+        </InputImage>
+        <Input />
+      </InputContainer>
+    </Container>
   );
 };
 
