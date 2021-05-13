@@ -28,10 +28,9 @@ const InputImage = styled.View`
 `;
 
 const Input = styled.TextInput`
-  background-color: ${({theme}) => theme.inputColor};
+  background-color: #bfbfbf;
   border-radius: 5px;
   font-size: 15px;
-  };
 `;
 
 const TextInput = () => {
