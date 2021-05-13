@@ -4,12 +4,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import styled from '@emotion/native';
 import Logo from '../assets/images/logo.png';
 import Input from '../components/Input';
-
-const Container = styled.View`
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-`;
+import Container from '../components/Container';
 
 const LogoImage = styled.Image`
   width: 111px;
@@ -54,13 +49,15 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
 });
-const Login = () => {
-  const handleLogin = useCallback(() => {}, []);
+const Login = ({navigation}: any) => {
+  const handleLogin = useCallback(() => {
+    navigation.navigate('MainMenu');
+  }, [navigation]);
   return (
     <LinearGradient
       colors={['#1C1A18', '#3D3C37']}
       style={styles.linearGradient}>
-      <Container>
+      <Container center>
         <LogoImage source={Logo} />
         <TitleBox>
           <Title>Welcome</Title>
