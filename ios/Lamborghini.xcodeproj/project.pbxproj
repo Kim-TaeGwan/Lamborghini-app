@@ -15,6 +15,7 @@
 		81846CAC2520A50248FE1FEC /* libPods-Lamborghini-LamborghiniTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEADDF349E6D10F94D55E621 /* libPods-Lamborghini-LamborghiniTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FB5285732641C68400275AEE /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = FB52856F2641BDBB00275AEE /* Fonts */; };
+		FB6EB156264E9301000C354C /* Myriad-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB6EB155264E9301000C354C /* Myriad-Pro.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		D74DF9630EBA71E09B709794 /* Pods-Lamborghini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lamborghini.release.xcconfig"; path = "Target Support Files/Pods-Lamborghini/Pods-Lamborghini.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FB52856F2641BDBB00275AEE /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		FB6EB155264E9301000C354C /* Myriad-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Myriad-Pro.ttf"; path = "Fonts/Myriad-Pro.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FB6EB155264E9301000C354C /* Myriad-Pro.ttf */,
 				FB52856F2641BDBB00275AEE /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Lamborghini */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -248,6 +251,7 @@
 			files = (
 				FB5285732641C68400275AEE /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				FB6EB156264E9301000C354C /* Myriad-Pro.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 import React, {useLayoutEffect, useState} from 'react';
-import {StatusBar} from 'react-native';
+import {SafeAreaView, StatusBar} from 'react-native';
 import {theme} from './theme';
 import {ThemeProvider} from '@emotion/react';
 import Navigation from './navigation';

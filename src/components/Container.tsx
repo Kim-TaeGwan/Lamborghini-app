@@ -22,7 +22,7 @@ const Container: VFC<Props> = ({children, originCenter, center, style}) => {
   return (
     <>
       {center && <LayoutCenter style={style}>{children}</LayoutCenter>}
-      {originCenter && <OriginCenter>{children}</OriginCenter>}
+      {originCenter && <OriginCenter style={style}>{children}</OriginCenter>}
     </>
   );
 };
