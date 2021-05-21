@@ -15,7 +15,7 @@ interface Props {
   center?: boolean;
   originCenter?: boolean;
   children: any;
-  style: StyleProp<any>;
+  style?: StyleProp<any>;
 }
 
 const Container: VFC<Props> = ({children, originCenter, center, style}) => {
