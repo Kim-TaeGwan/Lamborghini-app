@@ -1,5 +1,4 @@
 import React, {useLayoutEffect, useState} from 'react';
-import {SafeAreaView, StatusBar} from 'react-native';
 import {theme} from './theme';
 import {ThemeProvider} from '@emotion/react';
 import Navigation from './navigation';
@@ -12,9 +11,9 @@ const App = () => {
       setIsReady(true);
     }, 2000);
   }, []);
+
   return (
     <ThemeProvider theme={theme}>
-      <StatusBar barStyle="light-content" />
       {isReady ? <Navigation /> : <Loading />}
     </ThemeProvider>
   );
